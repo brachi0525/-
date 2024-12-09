@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* כותרות */
+h1 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* טופס הוספה */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* טופס עריכה */
+#editForm {
+    display: none;
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#editForm h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#editForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#editForm input[type="text"],
+#editForm input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#editForm input[type="submit"] {
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#editForm input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#editForm a {
+    color: #ff0000;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* טבלה */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td:last-child {
+    text-align: center;
+}
+
+/* כפתורים בטבלה */
+table button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+table button:hover {
+    background-color: #c82333;
+}
+
+/* כפתור עריכה */
+table button.edit {
+    background-color: #ffc107;
+    color: black;
+}
+
+table button.edit:hover {
+    background-color: #e0a800;
+}

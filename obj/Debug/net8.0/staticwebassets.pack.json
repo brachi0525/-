@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\User.html",
+      "PackagePath": "staticwebassets\\User.html"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\css\\user.css",
+      "PackagePath": "staticwebassets\\css\\user.css"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\js\\User.js",
+      "PackagePath": "staticwebassets\\js\\User.js"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user1\\Desktop\\ברכי תכנות\\שנה ב\\זילברברג\\פרויקט סופי!!!\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OurApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OurApi.props",
+      "PackagePath": "build\\OurApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OurApi.props",
+      "PackagePath": "buildMultiTargeting\\OurApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OurApi.props",
+      "PackagePath": "buildTransitive\\OurApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
